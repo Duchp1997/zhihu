@@ -1,3 +1,5 @@
+#本代码源自于知乎上的用户，尊重知识产权
+
 # coding: utf-8
 
 import os
@@ -17,7 +19,7 @@ def setup():
     utils.safe_mkdir("checkpoints")
     utils.safe_mkdir("outputs")
 
-
+#这里是定义了一个类
 class StyleTransfer(object):
     def __init__(self, content_img, style_img, img_width, img_height):
         """
